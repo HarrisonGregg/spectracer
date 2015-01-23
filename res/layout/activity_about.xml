@@ -1,0 +1,53 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/container"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/darkRed"
+    android:gravity="bottom"
+    android:orientation="vertical"
+    tools:context="com.harrison.spectracer.AboutActivity"
+    tools:ignore="MergeRootFrame" >
+
+	<View
+	  android:layout_width="match_parent"
+	  android:layout_height="0dp"
+	  android:layout_weight="1"
+	/>
+
+    <TextView
+        android:id="@+id/tvTitle"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight=".8"
+        android:gravity="center"
+        android:text="@string/about"
+        android:textColor="@color/white"
+        android:textSize="40sp" 
+        android:textStyle="bold"/>
+    
+    <TextView
+        android:id="@+id/tvDescription"
+        android:layout_width="280dp"
+        android:layout_height="0dp"
+        android:layout_weight=".8"
+	    android:layout_gravity="center"
+        android:gravity="left"
+        android:text="@string/appDescription"
+        android:textColor="@color/white"
+        android:textSize="15sp"
+        android:textStyle="bold"/>
+
+    <Button
+        android:id="@+id/btnChipzel"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/chipzel_s_site" />
+	
+	<View
+	  android:layout_width="match_parent"
+	  android:layout_height="0dp"
+	  android:layout_weight="1"
+	/>
+
+</LinearLayout>

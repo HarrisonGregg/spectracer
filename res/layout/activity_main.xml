@@ -1,0 +1,76 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/container"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/darkRed"
+    android:gravity="bottom"
+    android:orientation="vertical"
+    tools:context="com.harrison.spectracer.MainActivity"
+    tools:ignore="MergeRootFrame" >
+
+	<View
+	  android:layout_width="match_parent"
+	  android:layout_height="0dp"
+	  android:layout_weight="1"
+	/>
+
+	<ImageView
+	    android:id="@+id/ivTitle"
+	    android:layout_width="206dp"
+	    android:layout_height="142dp"
+	    android:layout_gravity="center"
+	    android:contentDescription="@string/title"
+	    android:src="@drawable/spectracer" />
+
+    <TextView
+        android:id="@+id/tvPlay"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight=".5"
+        android:gravity="center"
+        android:text="@string/play"
+        android:textColor="@color/white"
+        android:textSize="30sp" 
+        android:textStyle="bold"/>
+    
+    <TextView
+        android:id="@+id/tvHighscores"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight=".5"
+        android:gravity="center"
+        android:text="@string/highscores"
+        android:textColor="@color/white"
+        android:textSize="30sp"
+        android:textStyle="bold"/>
+    
+    <TextView
+        android:id="@+id/tvSettings"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight=".5"
+        android:gravity="center"
+        android:text="@string/settings"
+        android:textColor="@color/white"
+        android:textSize="30sp"
+        android:textStyle="bold"/>
+    
+    <TextView
+        android:id="@+id/tvAbout"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight=".5"
+        android:gravity="center"
+        android:text="@string/about"
+        android:textColor="@color/white"
+        android:textSize="30sp"
+        android:textStyle="bold"/>
+    
+   	<View
+	  android:layout_width="match_parent"
+	  android:layout_height="0dp"
+	  android:layout_weight="1"
+	/>
+
+</LinearLayout>

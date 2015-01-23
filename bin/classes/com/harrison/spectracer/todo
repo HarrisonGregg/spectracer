@@ -1,0 +1,20 @@
+Spec Tracer todo list
+
+
+- fix crashing on back/home during play
+- switch direction of triangle rotation
+	- possibly stop rotation during switching
+- change beat pulse from translation to scaling
+- add a trail behind the triangle
+- make/change font from default
+- clarify high score behavior
+
+- change obstacle spawning
+	- spawns on beat
+	- spawns in variations
+		- 2 eighth notes
+		- 1 eighth rest, 1 eighth note
+		- equivalent permutations for 16th notes etc
+		- each variation would be visually distinct from each other
+- change pulse algorithm
+	- http://imgur.com/PsXWpHJ
